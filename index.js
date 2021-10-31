@@ -95,7 +95,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Hello World! I am working on tourism website')
+    res.send('Hello World! Heroku is working fine')
 })
 
 app.listen(port, () => {
